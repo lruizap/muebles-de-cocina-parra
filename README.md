@@ -70,4 +70,4 @@ Este proyecto está licenciado bajo la MIT License. Puedes ver los detalles en e
 Para cualquier consulta, puedes contactarme a través de:
 
 - **Correo electrónico**: lruizap2502@gmail.com
-- **GitHub**: [lruizap](https://github.com/lruizap) y [David Guerrero](https://github.com/DaGuerGom)
+- **GitHub**: [lruizap](https://github.com/lruizap) y [DaGuerGom](https://github.com/DaGuerGom)
