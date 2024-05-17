@@ -34,7 +34,7 @@ La estructura del proyecto es la siguiente:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/muebles-de-cocina-parra.git
+   git clone https://github.com/lruizap/muebles-de-cocina-parra.git
    ```
 
 2. **Navegar al directorio del proyecto**:
@@ -59,7 +59,7 @@ Si deseas personalizar este proyecto, puedes modificar los archivos CSS y JavaSc
 ### Créditos
 
 - **Diseño Original**: [Figma](https://www.figma.com/design/JPPat1dcUfuDfl81a9K5ik/Muebles-de-Cocina-Parra-(Copy)?node-id=1%3A2&t=sO0GcjgSotIC9Otx-1)
-- **Desarrollador**: [Lucas Ruiz](https://github.com/lruizap)
+- **Desarrollador**: [Lucas Ruiz](https://github.com/lruizap) y [David Guerrero](https://github.com/DaGuerGom)
 
 ### Licencia
 
@@ -70,4 +70,4 @@ Este proyecto está licenciado bajo la MIT License. Puedes ver los detalles en e
 Para cualquier consulta, puedes contactarme a través de:
 
 - **Correo electrónico**: lruizap2502@gmail.com
-- **GitHub**: [lruizap](https://github.com/lruizap)
+- **GitHub**: [lruizap](https://github.com/lruizap) y [David Guerrero](https://github.com/DaGuerGom)
