@@ -15,9 +15,25 @@ header{
     background-position: center;
 }
 
-.navbar-brand img{
+footer{
+    background: #344E41;
+}
+
+.logo{
     width: 293px;
     height: 160px;
+}
+
+.logoFooter{
+    width:173px;
+    height: 83px;
+    gap: 11px;
+    opacity: 0px;
+}
+
+.iconoFooter{
+    height: 20px;
+    width: 20px;
 }
 
 h1{
@@ -32,4 +48,8 @@ h1{
 .boton-conocenos{
     background: #FFFFFF;
     color: #588157;
+}
+
+h2,h3,h4{
+    font-family: 'Abril Fatface';
 }
