@@ -1,55 +1,362 @@
-/*Fuente títulos*/
+/* Fuente para títulos */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-/*Open Sans - Fuente Body*/
+/* Fuente para el cuerpo del texto */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
+/* Estilos generales para el cuerpo */
+body {
     font-family: "Open Sans", sans-serif;
     color: rgba(255, 255, 255, 0.75);
+    background-color: #f9f5e9;
 }
 
-header{
+/* Estilos para el encabezado */
+header {
     background: linear-gradient(90deg, rgba(52, 78, 65, 0.95) 5%, rgba(0, 0, 0, 0.13) 100%), url("../img/INICIO/FOTO\ CABECERA.jpg");
     background-size: cover;
     background-position: center;
 }
 
-footer{
+/* Estilos para el pie de página */
+footer {
     background: #344E41;
 }
 
-.logo{
+/* Estilos para el logo */
+.logo {
     width: 293px;
     height: 160px;
 }
 
-.logoFooter{
-    width:173px;
+/* Estilos para el logo en el pie de página */
+.logoFooter {
+    width: 173px;
     height: 83px;
     gap: 11px;
     opacity: 0px;
 }
 
-.iconoFooter{
+/* Estilos para iconos en el pie de página */
+.iconoFooter {
     height: 20px;
     width: 20px;
 }
 
-h1{
+/* Estilos para títulos de nivel 1 */
+h1 {
     font-family: 'Abril Fatface';
     font-size: 2.7rem;
 }
 
-.boton-sabermas{
+/* Estilos para botones "saber más" */
+.boton-sabermas {
     background: #588157;
 }
 
-.boton-conocenos{
+/* Estilos para botones "conócenos" */
+.boton-conocenos {
     background: #FFFFFF;
     color: #588157;
 }
 
-h2,h3,h4{
+/* Estilos para títulos de nivel 2, 3 y 4 */
+h2,
+h3,
+h4 {
     font-family: 'Abril Fatface';
+}
+
+/* Estilos para la sección de estadísticas */
+.stats-section {
+    background: #344E41;
+    color: #f5f5f5;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Estilos para los elementos de estadísticas */
+.stats-item {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para la sección de testimonios */
+.testimonial-section {
+    background-color: #f9f5e9;
+    color: #333;
+    padding: 2rem 0;
+}
+
+/* Estilos para los testimonios */
+.testimonial {
+    background-color: #344E41;
+    color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Estilos para imágenes de la galería */
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+/* Estilos para el encabezado de los testimonios */
+.testimonial-header {
+    color: #344E41;
+    font-weight: bold;
+}
+
+/* Estilos para contenedor de la galería */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para los elementos de la galería */
+.gallery-item {
+    padding: 0.5rem;
+}
+
+/* Estilos para la sección de clientes */
+.client-section {
+    background-color: #f9f5e9;
+    color: #333;
+    padding: 2rem 0;
+}
+
+/* Estilos para la satisfacción del cliente */
+.satisfaction {
+    background-color: #344E41;
+    color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para imágenes de clientes */
+.client-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para el contenido del cliente */
+.client-content h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para el texto del contenido del cliente */
+.client-content p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Estilos para los iconos del cliente */
+.client-icons p {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para iconos dentro del contenido del cliente */
+.client-icons i {
+    font-size: 1.5rem;
+    color: #344E41;
+    margin-right: 0.5rem;
+}
+
+/* Estilos para la sección de servicios */
+.service {
+    background-color: #f9f5e9;
+}
+
+/* Estilos para el texto de servicios */
+.texto-servicios {
+    color: #344E41;
+}
+
+/* Estilos para las tarjetas de servicio */
+.service-card {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el título de las tarjetas de servicio */
+.service-card h5 {
+    font-weight: bold;
+}
+
+/* Estilos para los botones dentro de las tarjetas de servicio */
+.service-card .btn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para iconos dentro de los botones de las tarjetas de servicio */
+.service-card .btn svg {
+    margin-left: 10px;
+}
+
+/* Estilos para las tarjetas de servicio con fondo verde */
+.service-card-green {
+    background-color: #344E41;
+    color: #f9f5e9;
+}
+
+/* Estilos para los botones dentro de las tarjetas de servicio con fondo verde */
+.service-card-green .btn {
+    border: none;
+}
+
+/* Estilos para las tarjetas de servicio con fondo claro */
+.service-card-light {
+    background-color: #f8f9fa;
+    color: #344E41;
+}
+
+/* Estilos para la sección de servicios */
+.service-section {
+    background-color: #344E41;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Estilos para el título de la sección de servicios */
+.service-section h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Estilos para iconos */
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Estilos para testimonios */
+.testimonial {
+    background-color: #347439;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para párrafos dentro de testimonios */
+.testimonial p {
+    margin-bottom: 5px;
+}
+
+/* Estilos para la sección de características */
+.feature-section {
+    background-color: #344E41;
+}
+
+/* Estilos para la lista de características */
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para elementos de la lista de características */
+.feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para iconos dentro de la lista de características */
+.feature-list li svg {
+    margin-right: 10px;
+}
+
+/* Estilos para todos los iconos */
+.feature-list svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Estilos para testimonios */
+.testimonial {
+    background-color: #347439;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para citas dentro de testimonios */
+.testimonial blockquote {
+    margin: 0;
+}
+
+/* Estilos para el pie de página de testimonios */
+.testimonial-footer {
+    margin-top: 10px;
+    background-color: #347439;
+}
+
+/* Estilos para tarjetas */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+/* Estilos para el título de las tarjetas */
+.card-title {
+    font-size: 1.5rem;
+    color: #344E41;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de títulos de tarjetas */
+.title-cards-section {
+    color: #344E41;
+}
+
+/* Estilos para el texto de las tarjetas */
+.card-text {
+    color: #344E41;
+}
+
+/* Estilos para las etiquetas */
+.badge {
+    margin-right: 5px;
+}
+
+/* Estilos para la sección de revisiones */
+.review-section {
+    background-color: #344E41;
+}
+
+/* Estilos para las tarjetas de revisión */
+.review-card {
+    background-color: #fff7eb;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Estilos para imágenes dentro de las tarjetas de revisión */
+.review-card img {
+    border-radius: 50%;
+}
+
+/* Estilos para iconos de clasificación dentro de las tarjetas de revisión */
+.review-rating svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffc107;
 }
