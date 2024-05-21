@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muebles de Cocina Parra - Servicios</title>
+  <title>Muebles de Cocina Parra - Contacto</title>
 
   <!--CSS Bootstrap-->
   <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
@@ -20,7 +20,7 @@
   <header class="px-5 pb-5">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"><img class="logo" src="../img/LOGOTIPO/LOGOS_COCINA_POSITIVO.png"
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/LOGOTIPO/LOGOS_COCINA_POSITIVO.png"
             alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav gap-3 px-5 text-white">
             <li class="nav-item">
-              <a class="nav-link fw-bold" aria-current="page" href="./index.html">INICIO</a>
+              <a class="nav-link fw-bold" aria-current="page" href="../index.html">INICIO</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold" href="./servicios.html">SERVICIOS</a>
@@ -77,39 +77,69 @@
 
   <!-- Contenido de CONTACTO -->
 
-  <div class="container mt-5">
-    <section>
-      <div class="row">
-        <div class="col-md-6">
-          <!-- Formulario de contacto -->
-          <form>
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo">
-            </div>
-            <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje</label>
-              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
+  <div class="contact-section">
+    <div class="container">
+      <h2>Contáctenos...</h2>
+      <div class="row contact-info">
+        <div class="col-md-3">
+          <p><strong>Horario</strong></p>
+          <p>Lunes a viernes</p>
+          <p>Mañanas: 10:00 a 14:00</p>
+          <p>Tardes: 17:00 a 20:00</p>
         </div>
-        <div class="col-md-6">
-          <!-- Mapa (puedes usar Google Maps o cualquier otro servicio) -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.164474067201!2d-3.6220367999999996!3d40.4273568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422fecc1dad51d%3A0x7a2f0f64daf1943b!2sCocinas%20Parra!5e0!3m2!1ses!2ses!4v1716286909526!5m2!1ses!2ses"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-md-3">
+          <p><strong>Encuéntranos en...</strong></p>
+          <p>C. de Amposta, 3, LOC 3</p>
+          <p>San Blas-Canillejas, 28037 Madrid</p>
         </div>
-        <div>
-          <img src="../img/CONTACTO/kitchen-1336160_1920.jpg" alt="Cocina">
+        <div class="col-md-3">
+          <p><strong>Dirección de correo electrónico</strong></p>
+          <p>info@cocinasparra.com</p>
+        </div>
+        <div class="col-md-3">
+          <p><strong>Teléfono</strong></p>
+          <p>+34 606 54 64 15</p>
         </div>
       </div>
-    </section>
+      <form class="contact-form">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="mb-3">
+          <label for="apellidos" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      <div class="row mt-5">
+        <div class="col-12">
+          <iframe class="map w-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.164474067201!2d-3.6220367999999996!3d40.4273568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422fecc1dad51d%3A0x7a2f0f64daf1943b!2sCocinas%20Parra!5e0!3m2!1ses!2ses!4v1716286909526!5m2!1ses!2ses"
+            allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="row images">
+        <div class="col-md-6">
+          <img src="../img/CONTACTO/FOTO CABECERA.jpg" alt="Imagen 1">
+        </div>
+        <div class="col-md-6">
+          <img src="../img/CONTACTO/kitchen-1336160_1920.jpg" alt="Imagen 2">
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- FOOTER -->
