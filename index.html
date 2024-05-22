@@ -78,24 +78,24 @@
   <!--Contenido de HOME-->
 
   <div>
-    <section class="stats-section">
+    <section class="stats-section py-4 text-white">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12 stats-item">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-1">
             <h3>+500</h3>
-            <p>CLIENTES</p>
+            <h5>CLIENTES</h5>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 stats-item">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-1">
             <h3>100%</h3>
-            <p>CLIENTES SATISFECHOS</p>
+            <h5>CLIENTES SATISFECHOS</h5>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 stats-item">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-1">
             <h3>24 meses</h3>
-            <p>Financiación</p>
+            <h5>FINANCIACIÓN</h5>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 stats-item">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-1">
             <h3>40 años</h3>
-            <p>EXPERIENCIA</p>
+            <h5>EXPERIENCIA</h5>
           </div>
         </div>
       </div>
@@ -105,21 +105,23 @@
       <div class="container">
         <div class="row">
           <div class="col-12 mb-4">
-            <p class="text-muted mb-1">ENCARNACIÓN LÓPEZ</p>
-            <h2 class="fw-bold">Cocina con acabados en granito y superficie porosa.</h2>
+            <p class="mb-1 light-green">ENCARNACIÓN LÓPEZ</p>
+            <div class="col-12 col-md-5"><h2>Cocina con acabados en granito y superficie porosa.</h2></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="testimonial">
-              <p class="mb-1"><i class="bi bi-quote"></i></p>
-              <p class="fst-italic">"he quedado muy satisfecha, todo ha ido perfecto y estoy muy contenta con el
+        <div class="row mb-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="testimonial cita-encarnacion">
+              <div class="row">
+                <div class="col-12 d-flex justify-content-start pb-3"><img src="./img/INICIO/quote-left.png"></div>
+              </div>
+              <p class="fst-italic text-white">"he quedado muy satisfecha, todo ha ido perfecto y estoy muy contenta con el
                 trabajo,
                 muchas gracias a María Jesús y al montador."</p>
-              <p class="fw-bold">Encarnación López</p>
+              <p class="fw-bold text-white">Encarnación López</p>
             </div>
           </div>
-          <div class="col-lg-8 col-md-6 gallery-container">
+          <div class="col-lg-9 col-md-6 gallery-container">
             <div class="row gallery">
               <div class="col-md-4 col-sm-6 gallery-item">
                 <img src="./img/INICIO/ENCARNACIÓN_1.jpg" alt="Cocina 1">
@@ -140,25 +142,25 @@
       <div class="client-section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-12 col-lg-6">
               <div class="satisfaction mb-3">
                 <div>
-                  <span class="d-block text-center">100 %</span>
-                  <span class="d-block text-center">CLIENTES SATISFECHOS</span>
+                  <h3 class="d-block text-center"><span class="light-green">100 </span><span class="fs-5">%</span></h3>
+                  <h6 class="d-block text-center">CLIENTES SATISFECHOS</h6>
                 </div>
               </div>
-              <div class="d-flex justify-content-between">
-                <img src="./img/INICIO/1714113853307.jpg" alt="Imagen de la cocina del cliente" class="client-img me-2">
+              <div class="d-flex justify-content-between align-items-center col-6">
+                <img src="./img/INICIO/1714113853307.jpg" alt="Imagen de la cocina del cliente" class="img-fluid">
                 <img src="./img/INICIO/1714113853268.jpg" alt="Imagen de la cocina del cliente" class="client-img ms-2">
               </div>
             </div>
-            <div class="col-lg-8 col-md-6">
-              <div class="client-content">
+            <div class="col-12 col-lg-6">
+              <div>
                 <h2>CÓMO LE QUEDÓ LA CASA A UN CLIENTE</h2>
                 <p>Brindamos el mejor servicio hasta conseguir la cocina que sueñas.</p>
                 <div class="client-icons">
-                  <p><i class="bi bi-award"></i> EL MEJOR SERVICIO DE MUEBLES DE COCINA</p>
-                  <p><i class="bi bi-calendar"></i> QUE DÍA O AÑO SE HIZO LA REFORMA/OBRA</p>
+                  <p>EL MEJOR SERVICIO DE MUEBLES DE COCINA</p>
+                  <p>QUE DÍA O AÑO SE HIZO LA REFORMA/OBRA</p>
                 </div>
               </div>
             </div>
@@ -166,6 +168,10 @@
         </div>
       </div>
     </section>
+
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center"><span class="light-green">SERVICIOS QUE BRINDAMOS</span></div>
+    </div>
 
     <section>
       <div class="container my-5 service">
@@ -236,171 +242,106 @@
 
     <section class="feature-section">
       <div class="container py-5 ">
-        <h2 class="text-center">¿POR QUÉ DEBERÍA UTILIZAR NUESTROS SERVICIOS?</h2>
-        <h3 class="text-center mb-5">Brindamos los mejores resultados de servicio para su cocina</h3>
         <div class="row">
-          <div class="col-md-6">
-            <img src="./img/INICIO/1714113853127.jpg" alt="Cocina" class="img-fluid rounded">
+          <div class="col-12 col-lg-9">
+            <p class="mb-1 light-green">¿POR QUÉ DEBERÍA UTILIZAR NUESTROS SERVICIOS?</p>
+            <h3 class="mb-5 text-white">Brindamos los mejores resultados de servicio para su cocina</h3>
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-5">
+                <img src="./img/INICIO/1714113853127.jpg" alt="Cocina" class="img-fluid border border-5 border-light imagen-borde">
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="row">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-2"><img src="./img/INICIO/Garantia.png" alt="Garantia"></div>
+                    <div class="col-10"><h5 class="text-white">Garantía</h5></div>
+                  </div>
+                  <div class="row d-flex justify-content-end">
+                    <div class="col-10"><p>Te garantizamos 5 años tu cocina y 2 años en electrodomésticos.</p></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-2"><img src="./img/INICIO/TodoTipoDeCocinas.png" alt="Todo Tipo De Cocinas"></div>
+                    <div class="col-10"><h5 class="text-white">Todo Tipo De Cocinas</h5></div>
+                  </div>
+                  <div class="row d-flex justify-content-end">
+                    <div class="col-10"><p>Sueña con ella y te la hacemos realidad.</p></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-2"><img src="./img/INICIO/Consultas.png" alt="Consultas/Dudas"></div>
+                    <div class="col-10"><h5 class="text-white">Consultas/Dudas</h5></div>
+                  </div>
+                  <div class="row d-flex justify-content-end">
+                    <div class="col-10"><p>Estamos pendientes.</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-3">
-            <ul class="list-unstyled feature-list">
-              <li class="d-flex align-items-center mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor"
-                  class="bi bi-grid-3x3-gap-fill" version="1.1" id="Capa_1" x="0px" y="0px"
-                  viewBox="0 0 532.745 532.745" style="enable-background:new 0 0 532.745 532.745;" xml:space="preserve">
-                  <g>
-                    <path
-                      d="M266.373,49.715l159.993,36.929c9.493,81.34,15.643,196.97-1.38,240.365c-11.938,30.415-86.837,95.531-158.613,146.82   C266.373,472.206,266.373,49.715,266.373,49.715 M266.373,0L62.67,47.027c0,0-31.505,217.481,0,297.683   c27.364,69.669,203.702,188.035,203.702,188.035S442.711,414.379,470.075,344.71c31.505-80.202,0-297.683,0-297.683L266.373,0   L266.373,0z" />
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                </svg>
-                Garantía
-              </li>
-              <li class="d-flex align-items-center mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor"
-                  class="bi bi-grid-3x3-gap-fill" version="1.1" id="Capa_1" x="0px" y="0px" width="612px" height="612px"
-                  viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
-                  <g>
-                    <g id="_x33__32_">
-                      <g>
-                        <path
-                          d="M59.226,88.839C26.513,88.839,0,115.352,0,148.064s26.513,59.226,59.226,59.226s59.226-26.514,59.226-59.226     S91.938,88.839,59.226,88.839z M59.226,246.774C26.513,246.774,0,273.288,0,306c0,32.713,26.513,59.226,59.226,59.226     s59.226-26.513,59.226-59.226C118.452,273.288,91.938,246.774,59.226,246.774z M59.226,404.71C26.513,404.71,0,431.223,0,463.936     c0,32.712,26.513,59.226,59.226,59.226s59.226-26.514,59.226-59.226C118.452,431.223,91.938,404.71,59.226,404.71z      M197.419,187.548h375.096c21.815,0,39.484-17.669,39.484-39.484s-17.669-39.484-39.484-39.484H197.419     c-21.815,0-39.484,17.669-39.484,39.484S175.604,187.548,197.419,187.548z M572.516,266.516H197.419     c-21.815,0-39.484,17.669-39.484,39.484c0,21.814,17.669,39.484,39.484,39.484h375.096c21.815,0,39.484-17.67,39.484-39.484     C612,284.185,594.331,266.516,572.516,266.516z M572.516,424.451H197.419c-21.815,0-39.484,17.67-39.484,39.484     s17.669,39.483,39.484,39.483h375.096c21.815,0,39.484-17.669,39.484-39.483S594.331,424.451,572.516,424.451z" />
-                      </g>
-                    </g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                </svg>
-                Todo tipo de cocinas
-              </li>
-              <li class="d-flex align-items-center mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor"
-                  class="bi bi-grid-3x3-gap-fill" enable-background="new 0 0 64 64" height="64px" id="Layer_1"
-                  version="1.1" viewBox="0 0 64 64" width="64px" xml:space="preserve">
-                  <g>
-                    <path
-                      d="M38.501,7.69c-10.944,0-19.815,8.871-19.815,19.816c0,10.859,8.736,19.673,19.562,19.809v8.43l13.54-13.539   c4.01-3.626,6.53-8.869,6.53-14.7C58.316,16.561,49.444,7.69,38.501,7.69z" />
-                    <path
-                      d="M21.882,46.654v-2.405l-1.975-0.024c-5.638-0.07-10.224-4.714-10.224-10.353c0-4.645,3.073-8.585,7.292-9.894   c0.245-1.498,0.644-2.945,1.179-4.325C11.128,20.58,5.683,26.595,5.683,33.871c0,7.146,5.315,13.141,12.199,14.19v8.248   l9.871-9.871c-1.181-0.676-2.292-1.456-3.323-2.332L21.882,46.654z" />
-                  </g>
-                </svg>
-                Consultas/dudas
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <div class="testimonial">
-              <blockquote class="blockquote">
+          <div class="col-12 col-lg-3">
+            <div class="testimonial p-4">
+              <img src="./img/INICIO/quote-left.png" class="mb-2">
                 <p>Fenomenal.... Vinieron enseguida y muy eficientes. El trato fenomenal a la hora de comprar. Muy
                   recomendable. Sigamos apostando por el pequeño comercio de barrio.</p>
-              </blockquote>
-              <div class="testimonial-footer">
-                <strong>Karmen Hebrero</strong>
+                <div class="mt-2">
+                <h5 class="text-white">Karmen Hebrero</h5>
                 <ul class="list-unstyled mt-2">
-                  <li>✔ 24 horas de consulta.</li>
-                  <li>✔ Equipo Certificado</li>
-                  <li>✔ Oficina Física</li>
-                  <li>✔ Los mejores resultados</li>
+                  <li class="py-1"><img src="./img/INICIO/check-circle.png"> 24 horas de consulta.</li>
+                  <li class="py-1"><img src="./img/INICIO/check-circle.png"> Equipo Certificado</li>
+                  <li class="py-1"><img src="./img/INICIO/check-circle.png"> Oficina Física</li>
+                  <li class="py-1"><img src="./img/INICIO/check-circle.png"> Los mejores resultados</li>
                 </ul>
               </div>
             </div>
+          </div>
+          <div class="row">
+            
           </div>
         </div>
       </div>
     </section>
 
     <section>
+      
       <div class="container my-5">
         <h2 class="mb-4 title-cards-section">Publicaciones interesantes</h2>
         <div class="row">
-          <div class="col-md-4">
+          
+          <div class="col-md-4 mb-3">
             <div class="card">
               <img src="./img/INICIO/muebles-cocina-parra.268.jpg" class="card-img-top" alt="Cocina Moderna">
               <div class="card-body">
-                <span class="badge bg-success">General</span>
-                <span class="badge bg-light text-dark">Moderna</span>
+                <button type="button" class="btn rounded-pill boton-general text-white">General</button>
+                <button type="button" class="btn rounded-pill boton-alternativo btn-dark">Moderna</button>
                 <h5 class="card-title mt-2">Cocina Moderna</h5>
-                <p class="card-text">Estancias que destacan por su estilo, al mismo tiempo que por una gran
-                  funcionalidad.</p>
+                <div class="row"><div class="col-12 col-md-9"><p class="card-text pb-2">Estancias que destacan por su estilo, al mismo tiempo que por una gran
+                  funcionalidad.</p></div></div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-3">
             <div class="card">
               <img src="./img/INICIO/RUSTICA_6.jpg" class="card-img-top" alt="Cocina Rústica">
               <div class="card-body">
-                <span class="badge bg-success">General</span>
-                <span class="badge bg-light text-dark">Rústica</span>
+                <button type="button" class="btn rounded-pill boton-general text-white">General</button>
+                <button type="button" class="btn rounded-pill boton-alternativo btn-dark">Rústica</button>
                 <h5 class="card-title mt-2">Cocina Rústica</h5>
-                <p class="card-text">Lo más representativo es su aspecto rural; predominando la madera y las tonalidades
-                  de
-                  los marrones.</p>
+                <div class="row">
+                  <div class="col-md-9 col-12"><p class="card-text">Lo más representativo es su aspecto rural; predominando la madera y las tonalidades
+                    de los marrones.</p></div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-3">
             <div class="card">
               <img src="./img/INICIO/muebles-cocina-parra-5.jpg" class="card-img-top" alt="Cocina Elegante">
               <div class="card-body">
-                <span class="badge bg-success">General</span>
-                <span class="badge bg-light text-dark">Elegante</span>
+                <button type="button" class="btn rounded-pill boton-general text-white">General</button>
+                <button type="button" class="btn rounded-pill boton-alternativo btn-dark">Elegante</button>
                 <h5 class="card-title mt-2">Cocina Elegante</h5>
                 <p class="card-text">Destacan por emplear materiales de alta calidad buscando aportar luz, y por ofrecer
                   espacios amplios.</p>
@@ -411,9 +352,9 @@
       </div>
     </section>
 
-    <section class="review-section">
+    <section class="review-section py-4">
       <div class="container my-5">
-        <h2 class="mb-4">Reseñas de nuestros clientes...</h2>
+        <h2 class="mb-4 text-white">Reseñas de nuestros clientes...</h2>
         <div class="row">
           <div class="col-md-6">
             <div class="card review-card">
