@@ -123,9 +123,23 @@ h6 {
     border-radius: 1.5rem;
     font-size: 1.25rem;
     margin-bottom: 2rem;
-    top: 27vh;
-    right: 20vw;
+    top: 65%;
+    right: 50%;
     width: 10rem;
+}
+
+@media (max-width:768px) {
+    .satisfaction {
+        background-color: #344E41;
+        color: #f5f5f5;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+        top: 35vh;
+        right: 32vw;
+        width: 10rem;
+    }
 }
 
 /* Estilos para imágenes de clientes */
@@ -280,7 +294,7 @@ h6 {
     font-size: 1.5rem;
 }
 
-.card-img-top{
+.card-img-top {
     border-radius: 2.5rem 2.5rem 0 0;
     height: 200px;
     object-fit: cover
@@ -576,50 +590,51 @@ h6 {
     border-radius: 15px;
 }
 
-.light-green{
+.light-green {
     color: #A3B18A;
 }
 
-.imagen-borde{
+.imagen-borde {
     border-radius: 2rem;
 }
-.cita-encarnacion{
-    background-color:#344E41 !important;
+
+.cita-encarnacion {
+    background-color: #344E41 !important;
 }
 
-.boton-general{
+.boton-general {
     background-color: #3A5A40;
 }
 
-.boton-alternativo{
+.boton-alternativo {
     background-color: #A3B18A;
 }
 
-.btn-dark{
+.btn-dark {
     border: 0;
 }
 
-.imagen-resena-1{
+.imagen-resena-1 {
     background: url("../img/INICIO/IMG-20240205-WA0014\ \(3\).jpg");
     background-position: center;
     background-size: cover;
 }
 
-.imagen-resena-2{
+.imagen-resena-2 {
     background: url("../img/INICIO/casa-lujosa-estilo-clasico-moderno-cocina-armarios-negros-1614082910.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.img1-ClientesSatisfechos{
-    width: 15vw;
-    height: 27vh;
+.img1-ClientesSatisfechos {
+    width: 40%;
+    height: 30%;
     object-fit: cover;
     border-radius: 1.5rem 0 0 1.5rem;
 }
 
-.img2-ClientesSatisfechos{
-    width: 16vw;
+.img2-ClientesSatisfechos {
+    width: 50%;
     height: 40vh;
     object-fit: cover;
     border-radius: 1.5rem;
@@ -627,11 +642,12 @@ h6 {
 }
 
 @media (max-width:768px) {
-    .img1-ClientesSatisfechos{
-        width:45vw;
+    .img1-ClientesSatisfechos {
+        width: 45vw;
     }
-    .img2-ClientesSatisfechos{
-        width:45vw;
+
+    .img2-ClientesSatisfechos {
+        width: 45vw;
     }
 }
 
