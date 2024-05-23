@@ -111,7 +111,7 @@ h6 {
 /* Estilos para la sección de clientes */
 .client-section {
     background-color: #f9f5e9;
-    color: #333;
+    color: #6E6E6E;
     padding: 2rem 0;
 }
 
@@ -120,12 +120,12 @@ h6 {
     background-color: #344E41;
     color: #f5f5f5;
     padding: 1.5rem;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 1.5rem;
     font-size: 1.25rem;
     margin-bottom: 2rem;
+    top: 27vh;
+    right: 20vw;
+    width: 10rem;
 }
 
 /* Estilos para imágenes de clientes */
@@ -278,8 +278,6 @@ h6 {
 /* Estilos para el título de las tarjetas */
 .card-title {
     font-size: 1.5rem;
-    color: #344E41;
-    font-weight: bold;
 }
 
 .card-img-top{
@@ -327,7 +325,7 @@ h6 {
 /* Servicios */
 
 .servicios-page {
-    background-color: #f7f4eb;
+    background-color: #f9f5e9;
 }
 
 .page-services-section-title {
@@ -611,4 +609,35 @@ h6 {
     background: url("../img/INICIO/casa-lujosa-estilo-clasico-moderno-cocina-armarios-negros-1614082910.jpg");
     background-position: center;
     background-size: cover;
+}
+
+.img1-ClientesSatisfechos{
+    width: 15vw;
+    height: 27vh;
+    object-fit: cover;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.img2-ClientesSatisfechos{
+    width: 16vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 1.5rem;
+
+}
+
+@media (max-width:768px) {
+    .img1-ClientesSatisfechos{
+        width:45vw;
+    }
+    .img2-ClientesSatisfechos{
+        width:45vw;
+    }
+}
+
+.imagenCocina {
+    background-image: url('../img/CONTACTO/kitchen-1336160_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
 }
