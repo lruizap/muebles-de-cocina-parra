@@ -600,3 +600,15 @@ h6 {
 .btn-dark{
     border: 0;
 }
+
+.imagen-resena-1{
+    background: url("../img/INICIO/IMG-20240205-WA0014\ \(3\).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen-resena-2{
+    background: url("../img/INICIO/casa-lujosa-estilo-clasico-moderno-cocina-armarios-negros-1614082910.jpg");
+    background-position: center;
+    background-size: cover;
+}
