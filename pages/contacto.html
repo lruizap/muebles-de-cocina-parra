@@ -79,61 +79,93 @@
 
   <div class="contact-section">
     <div class="container">
-      <h2>Contáctenos...</h2>
-      <div class="row contact-info">
-        <div class="col-md-3">
-          <p><strong>Horario</strong></p>
-          <p>Lunes a viernes</p>
-          <p>Mañanas: 10:00 a 14:00</p>
-          <p>Tardes: 17:00 a 20:00</p>
-        </div>
-        <div class="col-md-3">
-          <p><strong>Encuéntranos en...</strong></p>
-          <p>C. de Amposta, 3, LOC 3</p>
-          <p>San Blas-Canillejas, 28037 Madrid</p>
-        </div>
-        <div class="col-md-3">
-          <p><strong>Dirección de correo electrónico</strong></p>
-          <p>info@cocinasparra.com</p>
-        </div>
-        <div class="col-md-3">
-          <p><strong>Teléfono</strong></p>
-          <p>+34 606 54 64 15</p>
-        </div>
+      <h2 class="text-dark text-center">Contáctenos...</h2>
+      <div class="row">
+        <div class="col-12 text-center light-green">QUÉDATE CON NOSOTROS</div>
       </div>
-      <form class="contact-form">
-        <div class="mb-3">
-          <label for="nombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+      <div class="row pb-5">
+        <div class="col-12 text-center light-grey">No dude en solicitar una consulta o hacernos preguntas</div>
+      </div>
+      <div class="row contact-info">
+        <div class="col-12 col-md-3 light-grey pb-4">
+          <div class="row">
+            <div class="col-2"><img src="../img/INICIO/calendar-days.png" alt="Calendario"></div>
+            <div class="col-10">
+              <h5 class="text-dark">Horario</h5>
+              <p>Lunes a viernes</p>
+              <Tardes:>Mañanas: 10:00 a 14:00 Tardes: 17:00 a 20:00</div>
+          </div> 
         </div>
-        <div class="mb-3">
-          <label for="apellidos" class="form-label">Apellidos</label>
-          <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+        <div class="col-12 col-md-3 light-grey pb-4">
+          <div class="row">
+            <div class="col-2"><img src="../img/CONTACTO/map.png" alt="Mapa"></div>
+            <div class="col-10">
+              <h5 class="text-dark">Encuéntranos en...</h5>
+              <p>C. de Amposta, 3, LOC 3</p>
+              <p>San Blas-Canillejas, 28037 Madrid</p>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="Email">
+        <div class="col-12 col-md-3 light-grey pb-4">
+          <div class="row">
+            <div class="col-2"><img src="../img/CONTACTO/envelope.png" alt="Correo"></div>
+            <div class="col-10">
+              <h5 class="text-dark">Dirección de correo electrónico</h5>
+              <p>info@cocinasparra.com</p>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="telefono" class="form-label">Teléfono</label>
-          <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
-        </div>
-        <div class="mb-3">
-          <label for="mensaje" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-      <div class="row mt-5">
-        <div class="col-12">
-          <iframe class="map w-100"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.164474067201!2d-3.6220367999999996!3d40.4273568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422fecc1dad51d%3A0x7a2f0f64daf1943b!2sCocinas%20Parra!5e0!3m2!1ses!2ses!4v1716286909526!5m2!1ses!2ses"
-            allowfullscreen="" loading="lazy"></iframe>
+        <div class="col-12 col-md-3 light-grey pb-4">
+          <div class="row">
+            <div class="col-2"><img src="../img/CONTACTO/phone-square.png" alt="Teléfono"></div>
+            <div class="col-10">
+              <h5 class="text-dark">Teléfono</h5>
+              <p>+34 606 54 64 15</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
+        <div class="col-12 col-md-6 pb-5">
+          <form class="contact-form">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+              <label for="apellidos" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row mt-5">
+            <div class="col-12">
+              <iframe class="map w-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.164474067201!2d-3.6220367999999996!3d40.4273568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422fecc1dad51d%3A0x7a2f0f64daf1943b!2sCocinas%20Parra!5e0!3m2!1ses!2ses!4v1716286909526!5m2!1ses!2ses"
+                allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="row mb-5">
         <div class="col-12">
-          <div class="imagenCocina bg-light rounded">
+          <div class="imagenCocina bg-light">
           </div>
         </div>
       </div>
