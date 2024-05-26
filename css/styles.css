@@ -408,26 +408,25 @@ h6 {
 .section-header {
     text-align: center;
     margin-top: 2rem;
-    color: #7a7a52;
 }
 
 .sub-title {
     text-align: center;
-    color: #555;
     margin-bottom: 2rem;
+    color: #6E6E6E;
 }
 
 .content-box {
     background-color: white;
     color: #344E41;
-    border-radius: 8px;
+    border-radius: 2rem;
     padding: 1.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
 }
 
 .highlight-section {
-    background-color: #2e3d29;
+    background-color: #344E41;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -436,7 +435,7 @@ h6 {
 
 .highlight-title {
     font-size: 2rem;
-    font-weight: bold;
+    color: #F3ECDC;
 }
 
 .purpose-section {
@@ -444,9 +443,7 @@ h6 {
 }
 
 .purpose-title {
-    text-align: center;
     font-size: 1.5rem;
-    font-weight: bold;
     margin-bottom: 1.5rem;
 }
 
@@ -455,8 +452,7 @@ h6 {
 }
 
 .step-number {
-    font-size: 1.5rem;
-    font-weight: bold;
+    padding-right: 1%;
     color: #b5c49c;
 }
 
