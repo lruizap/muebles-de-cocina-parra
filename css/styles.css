@@ -640,6 +640,17 @@ h6 {
     border-radius: 1rem;
 }
 
-.light-grey{
-    color:#6E6E6E;
+.light-grey {
+    color: #6E6E6E;
+}
+
+/* Formulario */
+
+.custom-input {
+    background-color: #e0e0e0;
+    color: #4a4a4a;
+}
+
+.custom-input::placeholder {
+    color: #7a7a7a;
 }
