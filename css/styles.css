@@ -7,7 +7,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: rgba(255, 255, 255, 0.75);
-    background-color: #f9f5e9;
+    background-color: #F3ECDC;
 }
 
 header {
@@ -71,7 +71,6 @@ h6 {
 
 /* Estilos para la sección de testimonios */
 .testimonial-section {
-    background-color: #f9f5e9;
     color: #333;
     padding: 2rem 0;
 }
@@ -110,7 +109,6 @@ h6 {
 
 /* Estilos para la sección de clientes */
 .client-section {
-    background-color: #f9f5e9;
     color: #6E6E6E;
     padding: 2rem 0;
 }
@@ -171,10 +169,6 @@ h6 {
     margin-right: 0.5rem;
 }
 
-/* Estilos para la sección de servicios */
-.service {
-    background-color: #f9f5e9;
-}
 
 /* Estilos para el texto de servicios */
 .texto-servicios {
@@ -336,12 +330,6 @@ h6 {
     fill: #ffc107;
 }
 
-/* Servicios */
-
-.servicios-page {
-    background-color: #f9f5e9;
-}
-
 .page-services-section-title {
     text-align: center;
     margin-top: 2rem;
@@ -464,38 +452,12 @@ h6 {
 /* Proyectos */
 
 .project-page {
-    margin-top: 20px;
-    color: #344E41;
-    background-color: #f7f4eb;
     font-family: Arial, sans-serif;
-}
-
-.project-title {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-    margin-top: 2rem;
-}
-
-.project-item {
-    background-color: white;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-description {
     margin-top: 1rem;
     font-size: 1rem;
-    color: #555;
-}
-
-.project-name {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #7a7a52;
 }
 
 .project-image {
@@ -653,4 +615,15 @@ h6 {
 
 .custom-input::placeholder {
     color: #7a7a7a;
+}
+
+.dark-green{
+    color: #073937;
+}
+
+.proyectos{
+    background-color: #FFF7E3;
+    box-shadow: 3px 6px 20px 0px #00000059;
+    border-radius: 2rem;
+    margin: 1%;
 }
