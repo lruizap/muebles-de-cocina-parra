@@ -497,13 +497,7 @@ h6 {
     display: block;
 }
 
-.kitchen-section {
-    background-color: #f3f3e6;
-    padding: 50px 0;
-}
-
 .kitchen-section h2 {
-    font-family: 'Times New Roman', serif;
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
@@ -626,4 +620,53 @@ h6 {
     box-shadow: 3px 6px 20px 0px #00000059;
     border-radius: 2rem;
     margin: 1%;
+}
+
+.texto-muebles{
+    color: #2D2D2D;
+}
+
+.img1-muebles {
+    width: 65%;
+    height: 40vh;
+    position: absolute;
+    right: 10vw;
+    z-index: -1;
+    border-radius: 1.5rem;
+    object-fit: cover;
+    border: 1px solid #F3ECDC;
+    border-width: 5px;
+}
+
+.img2-muebles {
+    width: 65%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    margin-top: 30%;
+    border: 1px solid #F3ECDC;
+    border-width: 5px;
+}
+
+.img3-muebles{
+    height: 30vh;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+@media (max-width:768px) {
+    .img1-muebles {
+        width: 45vw;
+        height: 20vh;
+    }
+
+    .img2-muebles {
+        width: 45vw;
+        height: 20vh;
+    }
+
+    .img3-muebles{
+        width: 90vw;
+    }
 }
